@@ -1,0 +1,31 @@
+{
+  "name": "bootcamp-node-challenge-01",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Thiago de Souza",
+    "email": "email@thiagopdesouza.com.br",
+    "url": "https://www.thiagodesouza.com.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagodesouza/bootcamp-nodejs-challenge-01.git"
+  },
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nunjucks": "^3.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
